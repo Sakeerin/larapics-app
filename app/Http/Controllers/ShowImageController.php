@@ -22,6 +22,6 @@ class ShowImageController extends Controller
             }, 'comments.user']);
         }
         
-        return view('image-show', compact('image','disableComments')); 
+        return view('image.show', compact('image','disableComments')); 
     }
 }
